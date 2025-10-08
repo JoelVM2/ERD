@@ -2,6 +2,11 @@ import random
 import numpy as np
 import matplotlib.pyplot as plt
 
+""" grades = []
+for _ in range(30):
+    randomNumber = random.uniform(1, 10)
+    grades.append('{0:.3g}'.format(randomNumber))
+"""
 grades = [random.randint(0, 10) for _ in range(30)]
 bins = [0, 2, 4, 6, 8, 10]
 style = {'facecolor': 'none', 'edgecolor': 'C0', 'linewidth': 2}
